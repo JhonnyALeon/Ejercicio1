@@ -19,7 +19,7 @@ public class Ejercicio1 {
       
       Producto asado = new Producto(7791, "Asado en Tira", 2500 , 10);
       System.out.println("El codigo del "+ asado.getDescripcion()+ " es: "+ asado.getCodigo()+" que sale: $" + asado.getPrecio()+ " y nos quedan " + asado.getStock() + "kg.");
-      
+        System.out.println("Holas como estas");
     }
     
 }
